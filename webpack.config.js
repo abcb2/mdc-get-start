@@ -18,8 +18,16 @@ module.exports = [
             {loader: 'extract-loader'},
             {loader: 'css-loader'},
             {
+              loader: 'postcss-loader',
+              options: {
+                plugins: () => [autoprefixer()],
+              },
+            },
+            {
               loader: 'sass-loader',
-              options: {includePaths: ['./node_modules']},
+              options: {
+                includePaths: ['./node_modules'],
+              },
             },
           ],
         },

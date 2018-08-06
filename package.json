@@ -20,10 +20,12 @@
   "homepage": "https://github.com/abcb2/mdc-get-start#readme",
   "devDependencies": {
     "@material/button": "^0.38.0",
+    "autoprefixer": "^9.1.0",
     "css-loader": "^1.0.0",
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
     "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
     "sass-loader": "^7.1.0",
     "webpack": "^3.12.0",
     "webpack-dev-server": "^2.11.2"
