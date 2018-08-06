@@ -1,0 +1,30 @@
+{
+  "name": "mdc-get-start",
+  "version": "0.1.0",
+  "description": "Material Designについて",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcb2/mdc-get-start.git"
+  },
+  "keywords": [],
+  "author": "abcb2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abcb2/mdc-get-start/issues"
+  },
+  "homepage": "https://github.com/abcb2/mdc-get-start#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
