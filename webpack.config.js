@@ -1,8 +1,9 @@
+const autoprefixer = require('autoprefixer');
 module.exports = [
   {
-    entry: './app.scss',
+    entry: ['./app.scss', './app.js'],
     output: {
-      filename: 'style-bundle.js',
+      filename: 'bundle.js',
     },
     module: {
       rules: [
@@ -30,6 +31,13 @@ module.exports = [
               },
             },
           ],
+        },
+        {
+          test: /\.js$/,
+          loader: 'babel-loader',
+          query: {
+            presets: ['es2015'],
+          },
         },
       ],
     },
